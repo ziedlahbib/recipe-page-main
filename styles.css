@@ -12,6 +12,7 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
+    height: auto;
     width: 90%; /* Set width to be more flexible */
     max-width: 400px; /* Prevents the card from becoming too wide */
     display: flex; 
@@ -73,8 +74,19 @@ body {
     font-size: 18px;
     margin-left: 1%;
 }
+.ingredientulcontainer {
+    margin-bottom: 5%; /* Adjust as needed */
+    margin-left: 5%;
+    font-size: 10px;
+    color:hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
 
+ol {
+    margin:0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 
+}
 ul {
     padding: 0;
     margin: 0;
