@@ -31,7 +31,7 @@ body {
 .title {
     align-self: flex-start; 
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 1%;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -39,7 +39,7 @@ body {
 .paragraphe {
     align-self: flex-start; 
     font-size: 10px;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 5px;
 }
 
@@ -71,7 +71,7 @@ body {
 .ingredienttitle {
     color: hsl(14, 45%, 36%);
     font-size: 18px;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 
