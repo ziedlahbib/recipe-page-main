@@ -15,7 +15,7 @@ body {
     height: 100%;
     width: 100%; /* Set width to be more flexible */
     max-width: 700px; /* Prevents the card from becoming too wide */
-    max-height:2000px ;
+    max-height:1000px ;
     display: flex; 
     flex-direction: column;
     padding: 15px;
