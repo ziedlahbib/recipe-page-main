@@ -12,20 +12,21 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
-    height: auto;
+    height: 100%;
     width: 90%; /* Set width to be more flexible */
     max-width: 400px; /* Prevents the card from becoming too wide */
     display: flex; 
     flex-direction: column;
     padding: 15px;
     box-sizing: border-box;
+
 }
 
 .banner {
     object-fit: cover;
     border-radius: 5px;
     width: 100%;
-    height: auto; /* Automatically adjusts height based on image aspect ratio */
+    height: 10%; /* Automatically adjusts height based on image aspect ratio */
     max-height: 200px; /* Prevent the banner from being too tall */
 }
 
@@ -35,6 +36,7 @@ body {
     margin-left: 1%;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;;
 }
 
 .paragraphe {
@@ -48,6 +50,7 @@ body {
     background-color: hsl(330, 100%, 98%);
     border-radius: 8px;
     width: 100%;
+    height: 15%;
     display: flex; 
     align-items: flex-start;
     flex-direction: column;
@@ -60,6 +63,7 @@ body {
     color: hsl(332, 51%, 32%);
     font-size: 18px;
     margin-left: 1%;
+    margin-top: 0;
 }
 .timeulcontainer {
     margin-bottom: 5%; /* Adjust as needed */
@@ -73,9 +77,10 @@ body {
     color: hsl(14, 45%, 36%);
     font-size: 18px;
     margin-left: 1%;
+    margin-top: 0;
 }
 .ingredientulcontainer {
-    margin-bottom: 5%; /* Adjust as needed */
+    margin-bottom: 2%; /* Adjust as needed */
     margin-left: 5%;
     font-size: 10px;
     color:hsl(14, 45%, 36%);
@@ -103,4 +108,10 @@ ul {
     .title, .paragraphe, .timetitle, li {
         font-size: 14px;
     }
+}
+hr {
+    border: 0; /* Remove default border */
+    border-top: 1px solid rgb(58, 57, 57); /* Add a top border */
+    height: 1px; /* Adjust height */
+    margin: 4% 0; /* Adjust spacing */
 }
