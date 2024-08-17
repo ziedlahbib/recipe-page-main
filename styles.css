@@ -13,8 +13,8 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     height: 100%;
-    width: 90%; /* Set width to be more flexible */
-    max-width: 400px; /* Prevents the card from becoming too wide */
+    width: 100%; /* Set width to be more flexible */
+    max-width: 700px; /* Prevents the card from becoming too wide */
     display: flex; 
     flex-direction: column;
     padding: 15px;
@@ -51,7 +51,7 @@ body {
     background-color: hsl(330, 100%, 98%);
     border-radius: 8px;
     width: 100%;
-    height: 15%;
+    height: 20%;
     display: flex; 
     align-items: flex-start;
     flex-direction: column;
@@ -103,15 +103,53 @@ ul {
 }
 .Nutrition{
 
-        border-radius: 8px;
         width: 93%;
         height: 25%;
         display: flex; 
         align-items: flex-start;
         flex-direction: column;
-        padding: 10px;
-        margin-left:1%;
+        margin:0;
+        padding: 0;         
    
+}
+.Nutritiontitle {
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: 0;
+}
+.Nutritionphrase {
+    align-self: flex-start; 
+    font-size: 10px;
+    margin-left: 1%;
+    margin-top: 5px;
+}
+/* styles.css */
+.table-container {
+    width: 100%; /* Adjust as needed */
+    overflow-x: auto; /* Adds horizontal scroll if table overflows */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are collapsed */
+
+}
+
+th, td {
+    padding: 8px; /* Adds spacing inside cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Adding some styling to header cells */
+th {
+    background-color: #f4f4f4; /* Light grey background for header cells */
+    font-weight: bold; /* Makes header text bold */
+}
+/* Remove bottom border from the last row */
+tbody tr:last-child td {
+    border-bottom: none;
 }
 
 @media (max-width: 600px) {
