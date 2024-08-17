@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     padding: 15px;
     box-sizing: border-box;
+ 
 
 }
 
@@ -57,6 +58,7 @@ body {
     padding: 10px;
     box-sizing: border-box;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .timetitle {
@@ -90,6 +92,7 @@ body {
 ol {
     margin:0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    overflow: hidden;
 
 }
 ul {
