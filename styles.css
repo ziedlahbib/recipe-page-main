@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 210, 168);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    width: 90%; /* Set width to be more flexible */
+    max-width: 400px; /* Prevents the card from becoming too wide */
+    display: flex; 
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.banner {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: auto; /* Automatically adjusts height based on image aspect ratio */
+    max-height: 200px; /* Prevent the banner from being too tall */
+}
+
+.title {
+    align-self: flex-start; 
+    font-size: 20px;
+    margin-left: 5%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.paragraphe {
+    align-self: flex-start; 
+    font-size: 10px;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 8px;
+    width: 100%;
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.timetitle {
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    margin-left: 1%;
+}
+.timeulcontainer {
+    margin-bottom: 5%; /* Adjust as needed */
+    margin-left: 5px;
+    font-size: 10px;
+    color: hsl(332, 51%, 32%);
+    
+
+}
+.ingredienttitle {
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+    
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+    .title, .paragraphe, .timetitle, li {
+        font-size: 14px;
+    }
+}
